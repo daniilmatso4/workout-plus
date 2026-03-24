@@ -1056,3 +1056,81 @@ input, button, select {
   color: var(--success);
   background: var(--success-glow);
 }
+
+/* ============================
+   Export
+   ============================ */
+
+.export-view {
+  padding: 24px 20px;
+}
+
+.export-view h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.3px;
+}
+
+.export-subtitle {
+  font-size: 14px;
+  color: var(--text-2);
+  margin-bottom: 24px;
+}
+
+.export-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.export-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+  width: 100%;
+}
+
+.export-card:active {
+  transform: scale(0.98);
+  border-color: var(--surface-3);
+}
+
+.export-card-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--surface-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--primary);
+}
+
+.export-card.sheets .export-card-icon {
+  color: #22c55e;
+}
+
+.export-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.export-card-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.export-card-desc {
+  font-size: 13px;
+  color: var(--text-2);
+}
