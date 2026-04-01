@@ -12,6 +12,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Arch back slightly, touch mid-chest, drive feet into floor',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/EIeI8Vf.gif',
       },
       {
         id: 'ohp',
@@ -20,6 +21,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Brace core, press straight up, lock out overhead',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/Kyd9Rz5.gif',
       },
       {
         id: 'incline-db-press',
@@ -28,6 +30,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: '30 degree incline, press up and slightly in',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/ns0SIbU.gif',
       },
       {
         id: 'lateral-raise',
@@ -36,6 +39,7 @@ export const WORKOUTS = [
         reps: 15,
         cue: 'Lead with elbows, pour water at the top',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/DsgkuIt.gif',
       },
       {
         id: 'cable-fly',
@@ -44,6 +48,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Slight bend in elbows, squeeze at the center',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/UKWTJWR.gif',
       },
       {
         id: 'tricep-pushdown',
@@ -52,6 +57,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Keep elbows locked at your sides, squeeze at the bottom',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/gAwDzB3.gif',
       },
       {
         id: 'overhead-tri-ext',
@@ -60,6 +66,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Keep elbows close to head, full stretch at the bottom',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/1xHyxys.gif',
       },
     ],
   },
@@ -76,6 +83,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Drive elbows back, squeeze shoulder blades at the top',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/eZyBC3j.gif',
       },
       {
         id: 'lat-pulldown',
@@ -84,6 +92,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Pull to upper chest, lean back slightly',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/qdRxqCj.gif',
       },
       {
         id: 'seated-cable-row',
@@ -92,6 +101,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Keep chest up, pull to belly button',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/fUBheHs.gif',
       },
       {
         id: 'face-pull',
@@ -100,6 +110,7 @@ export const WORKOUTS = [
         reps: 15,
         cue: 'Pull to forehead, rotate hands outward at the end',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/wqNPGCg.gif',
       },
       {
         id: 'barbell-curl',
@@ -108,6 +119,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Keep elbows pinned, control the negative',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/25GPyDY.gif',
       },
       {
         id: 'hammer-curl',
@@ -116,6 +128,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Thumbs up grip, no swinging',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/slDvUAU.gif',
       },
     ],
   },
@@ -132,6 +145,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Break at hips first, knees track over toes, hit parallel',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/qXTaZnJ.gif',
       },
       {
         id: 'rdl',
@@ -140,6 +154,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Hinge at hips, slight knee bend, feel hamstring stretch',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/wQ2c4XD.gif',
       },
       {
         id: 'leg-press',
@@ -148,6 +163,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Feet shoulder-width, press through full foot',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/10Z2DXU.gif',
       },
       {
         id: 'walking-lunge',
@@ -156,6 +172,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: '12 each leg, long stride, back knee almost touches floor',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/RRWFUcw.gif',
       },
       {
         id: 'leg-curl',
@@ -164,6 +181,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Squeeze at the top, slow negative',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/17lJ1kr.gif',
       },
       {
         id: 'calf-raise',
@@ -172,6 +190,7 @@ export const WORKOUTS = [
         reps: 15,
         cue: 'Full stretch at bottom, pause at top',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/8ozhUIZ.gif',
       },
     ],
   },
@@ -188,6 +207,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Arch back slightly, touch mid-chest, drive feet into floor',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/EIeI8Vf.gif',
       },
       {
         id: 'barbell-row-u',
@@ -196,6 +216,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Drive elbows back, squeeze shoulder blades at the top',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/eZyBC3j.gif',
       },
       {
         id: 'ohp-u',
@@ -204,6 +225,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Brace core, press straight up, lock out overhead',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/Kyd9Rz5.gif',
       },
       {
         id: 'lat-pulldown-u',
@@ -212,6 +234,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Pull to upper chest, lean back slightly',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/qdRxqCj.gif',
       },
       {
         id: 'db-curl-u',
@@ -220,6 +243,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Alternate arms, full range of motion',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/BU15nH4.gif',
       },
       {
         id: 'tricep-pushdown-u',
@@ -228,6 +252,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Keep elbows locked at your sides, squeeze at the bottom',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/gAwDzB3.gif',
       },
     ],
   },
@@ -244,6 +269,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Break at hips first, knees track over toes, hit parallel',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/qXTaZnJ.gif',
       },
       {
         id: 'rdl-l',
@@ -252,6 +278,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: 'Hinge at hips, slight knee bend, feel hamstring stretch',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/wQ2c4XD.gif',
       },
       {
         id: 'bulgarian-split',
@@ -260,6 +287,7 @@ export const WORKOUTS = [
         reps: 10,
         cue: '10 each leg, rear foot on bench, drop straight down',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/9E25EOx.gif',
       },
       {
         id: 'leg-ext-l',
@@ -268,6 +296,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Pause at top, control the negative',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/my33uHU.gif',
       },
       {
         id: 'leg-curl-l',
@@ -276,6 +305,7 @@ export const WORKOUTS = [
         reps: 12,
         cue: 'Squeeze at the top, slow negative',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/17lJ1kr.gif',
       },
       {
         id: 'calf-raise-l',
@@ -284,6 +314,7 @@ export const WORKOUTS = [
         reps: 15,
         cue: 'Full stretch at bottom, pause at top',
         video: null,
+        gif: 'https://static.exercisedb.dev/media/8ozhUIZ.gif',
       },
     ],
   },

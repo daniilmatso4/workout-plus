@@ -11,6 +11,8 @@ export default function ExerciseCard({ template, exercise, exerciseIndex, onSetU
       <div className="exercise-video-slot">
         {template.video ? (
           <video src={template.video} autoPlay loop muted playsInline />
+        ) : template.gif ? (
+          <img src={template.gif} alt={template.name} className="exercise-gif" loading="lazy" />
         ) : (
           <MuscleMap exerciseId={template.id} color={accentColor} />
         )}
