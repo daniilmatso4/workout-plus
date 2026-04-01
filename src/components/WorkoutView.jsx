@@ -423,6 +423,7 @@ export default function WorkoutView({ userId }) {
               exerciseIndex={i}
               onSetUpdate={handleSetUpdate}
               onSetComplete={handleSetComplete}
+              accentColor={activeWorkout.color}
             />
           ) : null
         )}

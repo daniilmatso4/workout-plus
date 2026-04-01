@@ -1,4 +1,6 @@
-export default function ExerciseCard({ template, exercise, exerciseIndex, onSetUpdate, onSetComplete }) {
+import MuscleMap from './MuscleMap'
+
+export default function ExerciseCard({ template, exercise, exerciseIndex, onSetUpdate, onSetComplete, accentColor }) {
   return (
     <div className="exercise-card">
       <div className="exercise-header">
@@ -10,12 +12,7 @@ export default function ExerciseCard({ template, exercise, exerciseIndex, onSetU
         {template.video ? (
           <video src={template.video} autoPlay loop muted playsInline />
         ) : (
-          <div className="video-placeholder">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" width="32" height="32">
-              <polygon points="5 3 19 12 5 21 5 3" />
-            </svg>
-            <span>Demo Video</span>
-          </div>
+          <MuscleMap exerciseId={template.id} color={accentColor} />
         )}
       </div>
 

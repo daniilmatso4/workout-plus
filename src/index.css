@@ -626,19 +626,35 @@ input, button, select {
   object-fit: cover;
 }
 
-.video-placeholder {
+/* Muscle map */
+.muscle-map {
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  color: var(--text-3);
+  justify-content: center;
 }
 
-.video-placeholder span {
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+.muscle-svg {
+  width: 90%;
+  height: 90%;
+}
+
+.body-label {
+  font-size: 8px;
+  fill: var(--text-3);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-family: inherit;
+}
+
+.muscle-pulse {
+  animation: musclePulse 2s ease-in-out infinite;
+}
+
+@keyframes musclePulse {
+  0%, 100% { opacity: 0.85; }
+  50% { opacity: 0.5; }
 }
 
 /* 3. Set logging cards */
